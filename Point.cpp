@@ -31,8 +31,10 @@ Point::Point(std::string& coordinateStr)
 // gets the length of that edge.
 bool Point::isEquivalentTo(const Point &otherPoint) const
 {
-    if (!m_valid || !otherPoint.m_valid)
+    // Added clarifying parenthesises
+    if (!m_valid || !otherPoint.m_valid) {
         return false;
+    }
 
     Edge edge(this, &otherPoint);
     return edge.getLength() > m_minDistance;
@@ -45,7 +47,9 @@ void Point::initialize(const std::string &pointStr)
     {
         m_x = convertStringToDouble(values[0], &m_valid);
         m_y = convertStringToDouble(values[1], &m_valid);
-        m_y = convertStringToDouble(values[2], &m_valid);
+        //bug found, duplicate line
+        //m_y = convertStringToDouble(values[2], &m_valid);
+        m_z = convertStringToDouble(values[2], &m_valid);
         checkForInfinity();
     }
 }
@@ -53,5 +57,7 @@ void Point::initialize(const std::string &pointStr)
 // Computes m_valid based on whether any of the points are infinity
 void Point::checkForInfinity()
 {
-    m_valid = (m_x != INFINITY && m_y != INFINITY && m_z == INFINITY);
+    //bug found?
+//    m_valid = (m_x != INFINITY && m_y != INFINITY && m_z == INFINITY);
+    m_valid = (m_x != INFINITY && m_y != INFINITY && m_z != INFINITY);
 }

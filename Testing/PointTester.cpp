@@ -7,7 +7,7 @@
 
 #include "../Point.h"
 #include "PointTester.h"
-
+void print(const Point& point);
 void PointTester::testConstructorWithDoubles()
 {
     std::cout << "Execute PointTester::testConstructorWithDoubles" << std::endl;
@@ -73,6 +73,7 @@ void PointTester::testIsEquivalentTo()
     Point p3(2.235,43.2,0.00001);
 
     // Test the equality of p0 with all four points
+    print(p0);
     if (!p0.isEquivalentTo(p0))
     {
         std::cout << "Failure in comparing p0 and p0 -- should be equal" << std::endl;
@@ -188,5 +189,9 @@ void PointTester::testInvalid() {
 
 
     // TODO: Write meaningful test cases to check for invalid points
+}
+
+void print(const Point &point) {
+    std::cout << point.getX() << ", " << point.getY() << ", " << point.getZ() << std::endl;
 }
 

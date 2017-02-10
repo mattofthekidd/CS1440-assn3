@@ -6,87 +6,95 @@
 
 #IncludeRegexTransform: 
 
-/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Triangles/Edge.cpp
+/Users/kidma/CLionProjects/CS1440/Triangle-Assn3/Edge.cpp
 cmath
 -
 complex
 -
 Edge.h
-/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Triangles/Edge.h
+/Users/kidma/CLionProjects/CS1440/Triangle-Assn3/Edge.h
 Utils.h
-/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Triangles/Utils.h
+/Users/kidma/CLionProjects/CS1440/Triangle-Assn3/Utils.h
 
-/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Triangles/Edge.h
+/Users/kidma/CLionProjects/CS1440/Triangle-Assn3/Edge.h
 Point.h
-/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Triangles/Point.h
+/Users/kidma/CLionProjects/CS1440/Triangle-Assn3/Point.h
 
-/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Triangles/Point.cpp
+/Users/kidma/CLionProjects/CS1440/Triangle-Assn3/Point.cpp
 string
 -
 cmath
 -
 Point.h
-/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Triangles/Point.h
+/Users/kidma/CLionProjects/CS1440/Triangle-Assn3/Point.h
 Edge.h
-/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Triangles/Edge.h
+/Users/kidma/CLionProjects/CS1440/Triangle-Assn3/Edge.h
 Utils.h
-/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Triangles/Utils.h
+/Users/kidma/CLionProjects/CS1440/Triangle-Assn3/Utils.h
 
-/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Triangles/Point.h
+/Users/kidma/CLionProjects/CS1440/Triangle-Assn3/Point.h
 string
 -
 
-/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Triangles/Testing/EdgeTester.cpp
+/Users/kidma/CLionProjects/CS1440/Triangle-Assn3/Testing/EdgeTester.cpp
 EdgeTester.h
-/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Triangles/Testing/EdgeTester.h
+/Users/kidma/CLionProjects/CS1440/Triangle-Assn3/Testing/EdgeTester.h
 iostream
 -
 cmath
 -
 ../Point.h
-/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Triangles/Point.h
+/Users/kidma/CLionProjects/CS1440/Triangle-Assn3/Point.h
 ../Edge.h
-/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Triangles/Edge.h
+/Users/kidma/CLionProjects/CS1440/Triangle-Assn3/Edge.h
 
-/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Triangles/Testing/EdgeTester.h
+/Users/kidma/CLionProjects/CS1440/Triangle-Assn3/Testing/EdgeTester.h
 
-/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Triangles/Testing/PointTester.cpp
+/Users/kidma/CLionProjects/CS1440/Triangle-Assn3/Testing/MyTests.cpp
+MyTests.hpp
+/Users/kidma/CLionProjects/CS1440/Triangle-Assn3/Testing/MyTests.hpp
+
+/Users/kidma/CLionProjects/CS1440/Triangle-Assn3/Testing/MyTests.hpp
+
+/Users/kidma/CLionProjects/CS1440/Triangle-Assn3/Testing/PointTester.cpp
 iostream
 -
 cmath
 -
 ../Point.h
-/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Triangles/Point.h
+/Users/kidma/CLionProjects/CS1440/Triangle-Assn3/Point.h
 PointTester.h
-/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Triangles/Testing/PointTester.h
+/Users/kidma/CLionProjects/CS1440/Triangle-Assn3/Testing/PointTester.h
 
-/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Triangles/Testing/PointTester.h
+/Users/kidma/CLionProjects/CS1440/Triangle-Assn3/Testing/PointTester.h
 
-/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Triangles/Testing/TriangleTester.cpp
+/Users/kidma/CLionProjects/CS1440/Triangle-Assn3/Testing/TriangleTester.cpp
 TriangleTester.h
-/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Triangles/Testing/TriangleTester.h
+/Users/kidma/CLionProjects/CS1440/Triangle-Assn3/Testing/TriangleTester.h
 iostream
 -
 cmath
 -
 ../Triangle.h
-/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Triangles/Triangle.h
+/Users/kidma/CLionProjects/CS1440/Triangle-Assn3/Triangle.h
 ../Utils.h
-/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Triangles/Utils.h
+/Users/kidma/CLionProjects/CS1440/Triangle-Assn3/Utils.h
 
-/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Triangles/Testing/TriangleTester.h
+/Users/kidma/CLionProjects/CS1440/Triangle-Assn3/Testing/TriangleTester.h
 
-/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Triangles/Testing/UtilsTester.cpp
+/Users/kidma/CLionProjects/CS1440/Triangle-Assn3/Testing/UtilsTester.cpp
 UtilsTester.h
-/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Triangles/Testing/UtilsTester.h
+/Users/kidma/CLionProjects/CS1440/Triangle-Assn3/Testing/UtilsTester.h
 iostream
 -
+cmath
+-
 ../Utils.h
-/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Triangles/Utils.h
+/Users/kidma/CLionProjects/CS1440/Triangle-Assn3/Utils.h
 
-/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Triangles/Testing/UtilsTester.h
+/Users/kidma/CLionProjects/CS1440/Triangle-Assn3/Testing/UtilsTester.h
 
-/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Triangles/Testing/testMain.cpp
+/Users/kidma/CLionProjects/CS1440/Triangle-Assn3/Testing/testMain.cpp
 string
 -
 iostream
@@ -94,31 +102,31 @@ iostream
 cmath
 -
 UtilsTester.h
-/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Triangles/Testing/UtilsTester.h
+/Users/kidma/CLionProjects/CS1440/Triangle-Assn3/Testing/UtilsTester.h
 PointTester.h
-/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Triangles/Testing/PointTester.h
+/Users/kidma/CLionProjects/CS1440/Triangle-Assn3/Testing/PointTester.h
 EdgeTester.h
-/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Triangles/Testing/EdgeTester.h
+/Users/kidma/CLionProjects/CS1440/Triangle-Assn3/Testing/EdgeTester.h
 TriangleTester.h
-/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Triangles/Testing/TriangleTester.h
+/Users/kidma/CLionProjects/CS1440/Triangle-Assn3/Testing/TriangleTester.h
 
-/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Triangles/Triangle.cpp
+/Users/kidma/CLionProjects/CS1440/Triangle-Assn3/Triangle.cpp
 Triangle.h
-/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Triangles/Triangle.h
+/Users/kidma/CLionProjects/CS1440/Triangle-Assn3/Triangle.h
 Utils.h
-/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Triangles/Utils.h
+/Users/kidma/CLionProjects/CS1440/Triangle-Assn3/Utils.h
 cmath
 -
 
-/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Triangles/Triangle.h
+/Users/kidma/CLionProjects/CS1440/Triangle-Assn3/Triangle.h
 string
 -
 Point.h
-/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Triangles/Point.h
+/Users/kidma/CLionProjects/CS1440/Triangle-Assn3/Point.h
 Edge.h
-/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Triangles/Edge.h
+/Users/kidma/CLionProjects/CS1440/Triangle-Assn3/Edge.h
 
-/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Triangles/Utils.cpp
+/Users/kidma/CLionProjects/CS1440/Triangle-Assn3/Utils.cpp
 algorithm
 -
 string
@@ -130,9 +138,9 @@ fstream
 cmath
 -
 Utils.h
-/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Triangles/Utils.h
+/Users/kidma/CLionProjects/CS1440/Triangle-Assn3/Utils.h
 
-/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Triangles/Utils.h
+/Users/kidma/CLionProjects/CS1440/Triangle-Assn3/Utils.h
 string
 -
 fstream

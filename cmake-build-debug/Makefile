@@ -48,10 +48,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/swc/Dropbox/UnderGit/cs1440s17-instructor/Homework/HW3/Triangles
+CMAKE_SOURCE_DIR = /Users/kidma/CLionProjects/CS1440/Triangle-Assn3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/swc/Dropbox/UnderGit/cs1440s17-instructor/Homework/HW3/Triangles/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/kidma/CLionProjects/CS1440/Triangle-Assn3/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/swc/Dropbox/UnderGit/cs1440s17-instructor/Homework/HW3/Triangles/cmake-build-debug/CMakeFiles /Users/swc/Dropbox/UnderGit/cs1440s17-instructor/Homework/HW3/Triangles/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kidma/CLionProjects/CS1440/Triangle-Assn3/cmake-build-debug/CMakeFiles /Users/kidma/CLionProjects/CS1440/Triangle-Assn3/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/swc/Dropbox/UnderGit/cs1440s17-instructor/Homework/HW3/Triangles/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kidma/CLionProjects/CS1440/Triangle-Assn3/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -222,6 +222,33 @@ Testing/EdgeTester.s: Testing/EdgeTester.cpp.s
 Testing/EdgeTester.cpp.s:
 	$(MAKE) -f CMakeFiles/Test.dir/build.make CMakeFiles/Test.dir/Testing/EdgeTester.cpp.s
 .PHONY : Testing/EdgeTester.cpp.s
+
+Testing/MyTests.o: Testing/MyTests.cpp.o
+
+.PHONY : Testing/MyTests.o
+
+# target to build an object file
+Testing/MyTests.cpp.o:
+	$(MAKE) -f CMakeFiles/Test.dir/build.make CMakeFiles/Test.dir/Testing/MyTests.cpp.o
+.PHONY : Testing/MyTests.cpp.o
+
+Testing/MyTests.i: Testing/MyTests.cpp.i
+
+.PHONY : Testing/MyTests.i
+
+# target to preprocess a source file
+Testing/MyTests.cpp.i:
+	$(MAKE) -f CMakeFiles/Test.dir/build.make CMakeFiles/Test.dir/Testing/MyTests.cpp.i
+.PHONY : Testing/MyTests.cpp.i
+
+Testing/MyTests.s: Testing/MyTests.cpp.s
+
+.PHONY : Testing/MyTests.s
+
+# target to generate assembly for a file
+Testing/MyTests.cpp.s:
+	$(MAKE) -f CMakeFiles/Test.dir/build.make CMakeFiles/Test.dir/Testing/MyTests.cpp.s
+.PHONY : Testing/MyTests.cpp.s
 
 Testing/PointTester.o: Testing/PointTester.cpp.o
 
@@ -437,6 +464,9 @@ help:
 	@echo "... Testing/EdgeTester.o"
 	@echo "... Testing/EdgeTester.i"
 	@echo "... Testing/EdgeTester.s"
+	@echo "... Testing/MyTests.o"
+	@echo "... Testing/MyTests.i"
+	@echo "... Testing/MyTests.s"
 	@echo "... Testing/PointTester.o"
 	@echo "... Testing/PointTester.i"
 	@echo "... Testing/PointTester.s"

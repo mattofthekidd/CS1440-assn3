@@ -16,7 +16,7 @@ void EdgeTester::testEdge01()
     Point p0(0,0,0);
     Point p1(1,0,0);
 
-    // Create and test a edge between p0 and p1, then test all characteristics of that edge
+    // Create and test an edge between p0 and p1, then test all characteristics of that edge
     Edge e(&p0, &p1);
     if (!e.isValid() || e.getPoint1() != &p0 || e.getPoint2()!= &p1)
     {
@@ -30,12 +30,14 @@ void EdgeTester::testEdge01()
 
     if (e.getLength()!=1)
     {
-        std::cout << "Failure in e.getLenth(), length="
+        //Corrected mispelled length in cout statement.
+        std::cout << "Failure in e.getLength(), length="
                   << e.getLength() << " (expecting 1)"
                   << std::endl;
         return;
     }
 
+    //double check, why infinity
     if (e.getSlopeX()!=INFINITY)
     {
         std::cout << "Failure in e.getSlopeX(), slope="

@@ -118,6 +118,11 @@ const Point* Triangle::getPoint(int index) const
     return result;
 }
 
+// ------------------------------------
+//
+//
+//
+// ------------------------------------
 void Triangle::setupEdges()
 {
     m_isValid = false;

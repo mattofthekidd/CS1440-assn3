@@ -16,6 +16,9 @@ CMakeFiles/Test.dir/Testing/EdgeTester.cpp.o: ../Point.h
 CMakeFiles/Test.dir/Testing/EdgeTester.cpp.o: ../Testing/EdgeTester.cpp
 CMakeFiles/Test.dir/Testing/EdgeTester.cpp.o: ../Testing/EdgeTester.h
 
+CMakeFiles/Test.dir/Testing/MyTests.cpp.o: ../Testing/MyTests.cpp
+CMakeFiles/Test.dir/Testing/MyTests.cpp.o: ../Testing/MyTests.hpp
+
 CMakeFiles/Test.dir/Testing/PointTester.cpp.o: ../Point.h
 CMakeFiles/Test.dir/Testing/PointTester.cpp.o: ../Testing/PointTester.cpp
 CMakeFiles/Test.dir/Testing/PointTester.cpp.o: ../Testing/PointTester.h

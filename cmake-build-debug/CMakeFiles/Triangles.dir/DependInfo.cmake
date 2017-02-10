@@ -4,11 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Triangles/Edge.cpp" "/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Triangles/cmake-build-debug/CMakeFiles/Triangles.dir/Edge.cpp.o"
-  "/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Triangles/Point.cpp" "/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Triangles/cmake-build-debug/CMakeFiles/Triangles.dir/Point.cpp.o"
-  "/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Triangles/Triangle.cpp" "/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Triangles/cmake-build-debug/CMakeFiles/Triangles.dir/Triangle.cpp.o"
-  "/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Triangles/Utils.cpp" "/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Triangles/cmake-build-debug/CMakeFiles/Triangles.dir/Utils.cpp.o"
-  "/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Triangles/main.cpp" "/Users/swc/Dropbox/UnderGit/cs1440s17-shared/Triangles/cmake-build-debug/CMakeFiles/Triangles.dir/main.cpp.o"
+  "/Users/kidma/CLionProjects/CS1440/Triangle-Assn3/Edge.cpp" "/Users/kidma/CLionProjects/CS1440/Triangle-Assn3/cmake-build-debug/CMakeFiles/Triangles.dir/Edge.cpp.o"
+  "/Users/kidma/CLionProjects/CS1440/Triangle-Assn3/Point.cpp" "/Users/kidma/CLionProjects/CS1440/Triangle-Assn3/cmake-build-debug/CMakeFiles/Triangles.dir/Point.cpp.o"
+  "/Users/kidma/CLionProjects/CS1440/Triangle-Assn3/Triangle.cpp" "/Users/kidma/CLionProjects/CS1440/Triangle-Assn3/cmake-build-debug/CMakeFiles/Triangles.dir/Triangle.cpp.o"
+  "/Users/kidma/CLionProjects/CS1440/Triangle-Assn3/Utils.cpp" "/Users/kidma/CLionProjects/CS1440/Triangle-Assn3/cmake-build-debug/CMakeFiles/Triangles.dir/Utils.cpp.o"
+  "/Users/kidma/CLionProjects/CS1440/Triangle-Assn3/main.cpp" "/Users/kidma/CLionProjects/CS1440/Triangle-Assn3/cmake-build-debug/CMakeFiles/Triangles.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
