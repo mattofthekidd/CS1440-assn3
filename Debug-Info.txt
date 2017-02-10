@@ -1,0 +1,105 @@
+1---------------------------------------------------------------------------------
+Run executable test cases
+
+Test Utils
+Execute UtilsTester::testSplit
+Execute UtilsTester::testConvertToDouble
+Execute UtilsTester::testForNormalCases
+Execute UtilsTester::testForZeros
+Execute UtilsTester::testForNegativeNumbers
+Execute UtilsTester::testForMaxDouble
+Execute UtilsTester:testForInfinity
+Execute UtilsTester::testForBadMargin
+
+Test Point
+Execute PointTester::testConstructorWithDoubles
+Failure in constructing Point(0,0,0) isValid()=0 x=0 y=0 z=0
+Execute PointTester::testIsEquivalentTo
+Failure in comparing p0 and p0 -- should be equal
+Failure in comparing p1 and p1 -- should be equal
+Failure in comparing p2 and p2 -- should be equal
+Failure in comparing p2 and p3 -- should be equal
+Failure in comparing p3 and p2 -- should be equal
+Failure in comparing p3 and p3 -- should be equal
+Execute PointTester::testConstructorWithStrings
+Failure in constructing Point("0,0,0") isValid()=0 x=0 y=0 z=0
+Execute PointTester::testInvalid
+
+Test Edge
+Execute EdgeTester::testEdge01
+Failure in e.getSlopeZ(), slope=inf (expecting 0)
+Execute EdgeTester::testEdge02
+Failure in e.getLenth(), length=6.16441 (expecting 6.708203932)
+Execute EdgeTester::testParallelEdges
+Execute EdgeTester::testNonParallelEdges
+Execute EdgeTester::testNonLengthEdges
+Execute EdgeTester::testBadEdges
+
+Test Triangle
+Execute TriangleTester::testConstructorWithStrings
+Failure to constructor a triangle from 3 points; unexpectedly invalid
+Execute TriangleTester::testSecondConstructor
+Execute TriangleTester::testEquilateralTriangles
+Failure to constructor a triangle from 3 points; unexpectedly invalid
+Execute TriangleTester::testIsoscelesTriangles
+Execute TriangleTester::testScaleneTriangles
+Execute TriangleTester::testIsoscelesTriangles
+Execute TriangleTester::testNonTriangles
+Execute TriangleTester::testInvalid
+
+Process finished with exit code 0
+1---------------------------------------------------------------------------------
+2---------------------------------------------------------------------------------
+Run executable test cases
+
+Test Utils
+Execute UtilsTester::testSplit
+Execute UtilsTester::testConvertToDouble
+Execute UtilsTester::testForNormalCases
+Execute UtilsTester::testForZeros
+Execute UtilsTester::testForNegativeNumbers
+Execute UtilsTester::testForMaxDouble
+Execute UtilsTester:testForInfinity
+Execute UtilsTester::testForBadMargin
+
+Test Point
+Execute PointTester::testConstructorWithDoubles
+Failure in constructing Point(0,0,0) isValid()=0 x=0 y=0 z=0
+Execute PointTester::testIsEquivalentTo
+Failure in comparing p0 and p0 -- should be equal
+Failure in comparing p1 and p1 -- should be equal
+Failure in comparing p2 and p2 -- should be equal
+Failure in comparing p2 and p3 -- should be equal
+Failure in comparing p3 and p2 -- should be equal
+Failure in comparing p3 and p3 -- should be equal
+Execute PointTester::testConstructorWithStrings
+Failure in constructing Point("0,0,0") isValid()=0 x=0 y=0 z=0
+Execute PointTester::testInvalid
+
+Test Edge
+Execute EdgeTester::testEdge01
+Failure in e.getSlopeZ(), slope=inf (expecting 0)
+Execute EdgeTester::testEdge02
+Failure in e.getSlopeZ(), slope=inf (expecting 1.118033989)
+Execute EdgeTester::testParallelEdges
+Execute EdgeTester::testNonParallelEdges
+Execute EdgeTester::testNonLengthEdges
+Execute EdgeTester::testBadEdges
+
+Test Triangle
+Execute TriangleTester::testConstructorWithStrings
+Failure to constructor a triangle from 3 points; unexpectedly invalid
+Execute TriangleTester::testSecondConstructor
+Execute TriangleTester::testEquilateralTriangles
+Failure to constructor a triangle from 3 points; unexpectedly invalid
+Execute TriangleTester::testIsoscelesTriangles
+Execute TriangleTester::testScaleneTriangles
+Execute TriangleTester::testIsoscelesTriangles
+Execute TriangleTester::testNonTriangles
+Execute TriangleTester::testInvalid
+
+Process finished with exit code 0
+2---------------------------------------------------------------------------------
+3---------------------------------------------------------------------------------
+
+3---------------------------------------------------------------------------------
