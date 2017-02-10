@@ -7,7 +7,6 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/kidma/CLionProjects/CS1440/Triangle-Assn3/Edge.cpp" "/Users/kidma/CLionProjects/CS1440/Triangle-Assn3/cmake-build-debug/CMakeFiles/Test.dir/Edge.cpp.o"
   "/Users/kidma/CLionProjects/CS1440/Triangle-Assn3/Point.cpp" "/Users/kidma/CLionProjects/CS1440/Triangle-Assn3/cmake-build-debug/CMakeFiles/Test.dir/Point.cpp.o"
   "/Users/kidma/CLionProjects/CS1440/Triangle-Assn3/Testing/EdgeTester.cpp" "/Users/kidma/CLionProjects/CS1440/Triangle-Assn3/cmake-build-debug/CMakeFiles/Test.dir/Testing/EdgeTester.cpp.o"
-  "/Users/kidma/CLionProjects/CS1440/Triangle-Assn3/Testing/MyTests.cpp" "/Users/kidma/CLionProjects/CS1440/Triangle-Assn3/cmake-build-debug/CMakeFiles/Test.dir/Testing/MyTests.cpp.o"
   "/Users/kidma/CLionProjects/CS1440/Triangle-Assn3/Testing/PointTester.cpp" "/Users/kidma/CLionProjects/CS1440/Triangle-Assn3/cmake-build-debug/CMakeFiles/Test.dir/Testing/PointTester.cpp.o"
   "/Users/kidma/CLionProjects/CS1440/Triangle-Assn3/Testing/TriangleTester.cpp" "/Users/kidma/CLionProjects/CS1440/Triangle-Assn3/cmake-build-debug/CMakeFiles/Test.dir/Testing/TriangleTester.cpp.o"
   "/Users/kidma/CLionProjects/CS1440/Triangle-Assn3/Testing/UtilsTester.cpp" "/Users/kidma/CLionProjects/CS1440/Triangle-Assn3/cmake-build-debug/CMakeFiles/Test.dir/Testing/UtilsTester.cpp.o"

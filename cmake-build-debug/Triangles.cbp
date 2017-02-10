@@ -140,12 +140,6 @@
 		<Unit filename="/Users/kidma/CLionProjects/CS1440/Triangle-Assn3/Testing/EdgeTester.h">
 			<Option target="Test"/>
 		</Unit>
-		<Unit filename="/Users/kidma/CLionProjects/CS1440/Triangle-Assn3/Testing/MyTests.cpp">
-			<Option target="Test"/>
-		</Unit>
-		<Unit filename="/Users/kidma/CLionProjects/CS1440/Triangle-Assn3/Testing/MyTests.hpp">
-			<Option target="Test"/>
-		</Unit>
 		<Unit filename="/Users/kidma/CLionProjects/CS1440/Triangle-Assn3/Testing/PointTester.cpp">
 			<Option target="Test"/>
 		</Unit>

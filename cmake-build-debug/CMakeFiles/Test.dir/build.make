@@ -177,33 +177,9 @@ CMakeFiles/Test.dir/Testing/UtilsTester.cpp.o.provides: CMakeFiles/Test.dir/Test
 CMakeFiles/Test.dir/Testing/UtilsTester.cpp.o.provides.build: CMakeFiles/Test.dir/Testing/UtilsTester.cpp.o
 
 
-CMakeFiles/Test.dir/Testing/MyTests.cpp.o: CMakeFiles/Test.dir/flags.make
-CMakeFiles/Test.dir/Testing/MyTests.cpp.o: ../Testing/MyTests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kidma/CLionProjects/CS1440/Triangle-Assn3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Test.dir/Testing/MyTests.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Test.dir/Testing/MyTests.cpp.o -c /Users/kidma/CLionProjects/CS1440/Triangle-Assn3/Testing/MyTests.cpp
-
-CMakeFiles/Test.dir/Testing/MyTests.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Test.dir/Testing/MyTests.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kidma/CLionProjects/CS1440/Triangle-Assn3/Testing/MyTests.cpp > CMakeFiles/Test.dir/Testing/MyTests.cpp.i
-
-CMakeFiles/Test.dir/Testing/MyTests.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Test.dir/Testing/MyTests.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kidma/CLionProjects/CS1440/Triangle-Assn3/Testing/MyTests.cpp -o CMakeFiles/Test.dir/Testing/MyTests.cpp.s
-
-CMakeFiles/Test.dir/Testing/MyTests.cpp.o.requires:
-
-.PHONY : CMakeFiles/Test.dir/Testing/MyTests.cpp.o.requires
-
-CMakeFiles/Test.dir/Testing/MyTests.cpp.o.provides: CMakeFiles/Test.dir/Testing/MyTests.cpp.o.requires
-	$(MAKE) -f CMakeFiles/Test.dir/build.make CMakeFiles/Test.dir/Testing/MyTests.cpp.o.provides.build
-.PHONY : CMakeFiles/Test.dir/Testing/MyTests.cpp.o.provides
-
-CMakeFiles/Test.dir/Testing/MyTests.cpp.o.provides.build: CMakeFiles/Test.dir/Testing/MyTests.cpp.o
-
-
 CMakeFiles/Test.dir/Point.cpp.o: CMakeFiles/Test.dir/flags.make
 CMakeFiles/Test.dir/Point.cpp.o: ../Point.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kidma/CLionProjects/CS1440/Triangle-Assn3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Test.dir/Point.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kidma/CLionProjects/CS1440/Triangle-Assn3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Test.dir/Point.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Test.dir/Point.cpp.o -c /Users/kidma/CLionProjects/CS1440/Triangle-Assn3/Point.cpp
 
 CMakeFiles/Test.dir/Point.cpp.i: cmake_force
@@ -227,7 +203,7 @@ CMakeFiles/Test.dir/Point.cpp.o.provides.build: CMakeFiles/Test.dir/Point.cpp.o
 
 CMakeFiles/Test.dir/Edge.cpp.o: CMakeFiles/Test.dir/flags.make
 CMakeFiles/Test.dir/Edge.cpp.o: ../Edge.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kidma/CLionProjects/CS1440/Triangle-Assn3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Test.dir/Edge.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kidma/CLionProjects/CS1440/Triangle-Assn3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Test.dir/Edge.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Test.dir/Edge.cpp.o -c /Users/kidma/CLionProjects/CS1440/Triangle-Assn3/Edge.cpp
 
 CMakeFiles/Test.dir/Edge.cpp.i: cmake_force
@@ -251,7 +227,7 @@ CMakeFiles/Test.dir/Edge.cpp.o.provides.build: CMakeFiles/Test.dir/Edge.cpp.o
 
 CMakeFiles/Test.dir/Triangle.cpp.o: CMakeFiles/Test.dir/flags.make
 CMakeFiles/Test.dir/Triangle.cpp.o: ../Triangle.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kidma/CLionProjects/CS1440/Triangle-Assn3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Test.dir/Triangle.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kidma/CLionProjects/CS1440/Triangle-Assn3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Test.dir/Triangle.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Test.dir/Triangle.cpp.o -c /Users/kidma/CLionProjects/CS1440/Triangle-Assn3/Triangle.cpp
 
 CMakeFiles/Test.dir/Triangle.cpp.i: cmake_force
@@ -275,7 +251,7 @@ CMakeFiles/Test.dir/Triangle.cpp.o.provides.build: CMakeFiles/Test.dir/Triangle.
 
 CMakeFiles/Test.dir/Utils.cpp.o: CMakeFiles/Test.dir/flags.make
 CMakeFiles/Test.dir/Utils.cpp.o: ../Utils.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kidma/CLionProjects/CS1440/Triangle-Assn3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Test.dir/Utils.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kidma/CLionProjects/CS1440/Triangle-Assn3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Test.dir/Utils.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Test.dir/Utils.cpp.o -c /Users/kidma/CLionProjects/CS1440/Triangle-Assn3/Utils.cpp
 
 CMakeFiles/Test.dir/Utils.cpp.i: cmake_force
@@ -304,7 +280,6 @@ Test_OBJECTS = \
 "CMakeFiles/Test.dir/Testing/EdgeTester.cpp.o" \
 "CMakeFiles/Test.dir/Testing/TriangleTester.cpp.o" \
 "CMakeFiles/Test.dir/Testing/UtilsTester.cpp.o" \
-"CMakeFiles/Test.dir/Testing/MyTests.cpp.o" \
 "CMakeFiles/Test.dir/Point.cpp.o" \
 "CMakeFiles/Test.dir/Edge.cpp.o" \
 "CMakeFiles/Test.dir/Triangle.cpp.o" \
@@ -318,14 +293,13 @@ Test: CMakeFiles/Test.dir/Testing/PointTester.cpp.o
 Test: CMakeFiles/Test.dir/Testing/EdgeTester.cpp.o
 Test: CMakeFiles/Test.dir/Testing/TriangleTester.cpp.o
 Test: CMakeFiles/Test.dir/Testing/UtilsTester.cpp.o
-Test: CMakeFiles/Test.dir/Testing/MyTests.cpp.o
 Test: CMakeFiles/Test.dir/Point.cpp.o
 Test: CMakeFiles/Test.dir/Edge.cpp.o
 Test: CMakeFiles/Test.dir/Triangle.cpp.o
 Test: CMakeFiles/Test.dir/Utils.cpp.o
 Test: CMakeFiles/Test.dir/build.make
 Test: CMakeFiles/Test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/kidma/CLionProjects/CS1440/Triangle-Assn3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable Test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/kidma/CLionProjects/CS1440/Triangle-Assn3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable Test"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Test.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -338,7 +312,6 @@ CMakeFiles/Test.dir/requires: CMakeFiles/Test.dir/Testing/PointTester.cpp.o.requ
 CMakeFiles/Test.dir/requires: CMakeFiles/Test.dir/Testing/EdgeTester.cpp.o.requires
 CMakeFiles/Test.dir/requires: CMakeFiles/Test.dir/Testing/TriangleTester.cpp.o.requires
 CMakeFiles/Test.dir/requires: CMakeFiles/Test.dir/Testing/UtilsTester.cpp.o.requires
-CMakeFiles/Test.dir/requires: CMakeFiles/Test.dir/Testing/MyTests.cpp.o.requires
 CMakeFiles/Test.dir/requires: CMakeFiles/Test.dir/Point.cpp.o.requires
 CMakeFiles/Test.dir/requires: CMakeFiles/Test.dir/Edge.cpp.o.requires
 CMakeFiles/Test.dir/requires: CMakeFiles/Test.dir/Triangle.cpp.o.requires
