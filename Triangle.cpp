@@ -20,7 +20,7 @@ Triangle::Triangle(std::string& triangleStr)
         m_points = new Point*[3];
         m_points[0] = new Point(values[0]);
         m_points[1] = new Point(values[1]);
-        m_points[2] = new Point(values[1]);
+        m_points[2] = new Point(values[2]);
         setupEdges();
     }
 }
@@ -61,23 +61,23 @@ char Triangle::getTriangleType() const
     char result = 'X';
     if (isValid())
     {
-        if (!isTriangle())
+        if (isTriangle())
         {
             double a = m_edges[0]->getLength();
             double b = m_edges[1]->getLength();
             double c = m_edges[2]->getLength();
             // If all three side are the same, then its an equilateral
-            if (approximatelyEquals(a, b, m_edgeLengthThreshold)  && approximatelyEquals(b, c, m_edgeLengthThreshold)) {
+            if (approximatelyEquals(a, b, m_edgeLengthThreshold) && approximatelyEquals(b, c, m_edgeLengthThreshold)) {
                 result = 'E';
             }
-            // If any two sides are the same, then its an isosceles
+            // If any two sides are the same, then it's a isosceles
             else if (approximatelyEquals(a, b, m_edgeLengthThreshold) ||
                     approximatelyEquals(b, c, m_edgeLengthThreshold) ||
-                    approximatelyEquals(c, c, m_edgeLengthThreshold))
+                    approximatelyEquals(c, a, m_edgeLengthThreshold))
             {
                 result = 'I';
             }
-            // Otherwise its an scalene
+            // Otherwise its a scalene
             else
             {
                 result = 'S';
@@ -102,7 +102,7 @@ double Triangle::computerArea() const
         double a = m_edges[0]->getLength();
         double b = m_edges[1]->getLength();
         double c = m_edges[2]->getLength();
-        double s = ( a + b + b)/2;
+        double s = ( a + b + c)/2;
         area = sqrt(s*(s-a)*(s-b)*(s-c));
     }
     return area;
