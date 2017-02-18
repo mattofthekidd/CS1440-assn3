@@ -14,20 +14,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="93faa569-c6b8-4444-889d-dbc189d3278a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TriangleValidator-Design.vpp.bak_002d" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TriangleValidator-Design.vpp.bak_003d" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.TriangleValidator-Design.vpp.lck" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/~$Error-Checking.xlsx" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Error-Checking.xlsx" afterPath="$PROJECT_DIR$/Error-Checking.xlsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Testing/Triangles Worksheet.xlsx" afterPath="$PROJECT_DIR$/Testing/Triangles Worksheet.xlsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TriangleValidator-Design.vpp" afterPath="$PROJECT_DIR$/TriangleValidator-Design.vpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Test.dir/Testing/EdgeTester.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Test.dir/Testing/EdgeTester.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Test.dir/Testing/TriangleTester.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Test.dir/Testing/TriangleTester.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/Test" afterPath="$PROJECT_DIR$/cmake-build-debug/Test" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cs1440s17-shared" afterPath="$PROJECT_DIR$/cs1440s17-shared" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Testing/EdgeTester.cpp" afterPath="$PROJECT_DIR$/Testing/EdgeTester.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Testing/TriangleTester.cpp" afterPath="$PROJECT_DIR$/Testing/TriangleTester.cpp" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -522,12 +512,12 @@
       <workItem from="1486590314249" duration="2944000" />
       <workItem from="1486672718448" duration="549000" />
       <workItem from="1486754816873" duration="17176000" />
-      <workItem from="1487354457940" duration="9130000" />
+      <workItem from="1487354457940" duration="9362000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29799000" />
+    <option name="totallyTimeSpent" value="30031000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
