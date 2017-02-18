@@ -107,29 +107,14 @@ void EdgeTester::testParallelEdges() {
     Point p0(0, 0, 0);
     Point p1(1, 0, 0);
 
-    Point p2(1, 1, 1);
-    Point p3(2, 1, 1);
+    Point p2(1, 0, 0);
+    Point p3(3, 4, 5);
 
     Edge edge1(&p0, &p1);
     Edge edge2(&p2, &p3);
 
-    if (edge1.getSlopeX() == edge2.getSlopeX()) {
-        std::cout << "Slope X is the same for given edges.\n";
-    }
-    else {
-        std::cout << "Slope X is not the same for given edges.\n";
-    }
-    if (edge1.getSlopeY() == edge2.getSlopeY()) {
-        std::cout << "Slope Y is the same for given edges.\n";
-    }
-    else {
-        std::cout << "Slope Y is not the same for given edges.\n";
-    }
-    if (edge1.getSlopeZ() == edge2.getSlopeZ()) {
-        std::cout << "Slope Z is the same for given edges.\n";
-    }
-    else {
-        std::cout << "Slope Z is not the same for given edges.\n";
+    if (edge1.isParallelTo(edge2)) {
+        std::cout << "Edges are parallel.\n";
     }
 
 }
@@ -138,17 +123,40 @@ void EdgeTester::testNonParallelEdges() {
     std::cout << "Execute EdgeTester::testNonParallelEdges" << std::endl;
 
     // TODO: Writing a representative set of test cases for edges that are not parallel with other
+    Point p0(0, 0, 0);
+    Point p1(1, 0, 0);
 
+    Point p2(1, 0, 0);
+    Point p3(3, 4, 5);
+
+    Edge edge1(&p0, &p1);
+    Edge edge2(&p2, &p3);
+    if(!edge1.isParallelTo(edge2)) {
+        std::cout << "Edges are not parallel.\n";
+    }
 }
 
 void EdgeTester::testNonLengthEdges() {
     std::cout << "Execute EdgeTester::testNonLengthEdges" << std::endl;
+    Point p0(0, 0, 0);
+    Point p1(1, 0, 0);
 
-    // TODO: Writing a representative set of test cases for edges have a length of zero or approximately zero
+    Edge edge1(&p0, &p1);
+    // TODO: Writing a representative set of test cases for edges that have a length of zero or approximately zero
+    if(edge1.getLength() == 0 || edge1.getLength() < 1) {
+        std::cout << "Length of edge is zero or near to zero.\n";
+    }
 }
 
 void EdgeTester::testBadEdges() {
     std::cout << "Execute EdgeTester::testBadEdges" << std::endl;
+    Point p0(0, 0, 0);
+    Point p1(1, 0, 0);
 
+    //Include a testEdge function, using a bool return value, if false then edge is bad.
+    Edge edge1(&p0, &p1);
     // TODO: Writing a representative set of test cases for edges not formed correctly
+    if(edge1.getLength() < 0 || edge1.getLength() == NAN || edge1.getLength() == INFINITY || !edge1.isValid()) {
+        std::cout << "Edge is not valid.\n";
+    }
 }
